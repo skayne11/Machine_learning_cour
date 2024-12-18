@@ -12,7 +12,7 @@ Pour commencer, ouvrez un terminal et exécutez la commande suivante :
 
 ```bash
 git clone https://github.com/skayne11/Machine_learning_cour 
-cd Machine_learning_cour`
+cd Machine_learning_cour
 ```
 
 
