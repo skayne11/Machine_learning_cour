@@ -1,5 +1,3 @@
-
-1
 import torch
 import numpy as np
 import random
@@ -39,7 +37,7 @@ def chatbot_response(user_input_en):
     # Generate a response
     generate_ids = conversation.generate(
         inputs.input_ids, 
-        max_length=2000,  # Allow up to 2000 tokens
+        max_length=300,  # Allow up to 2000 tokens
         temperature=1.2,  # Increase temperature for variability
         top_p=0.9,        # Use nucleus sampling for diversity
         do_sample=True,   # Enable sampling for less deterministic output
